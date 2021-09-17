@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="exercise08.Solution08Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-17T18:07:04" hostname="DESKTOP-BKLQ23J" time="0.021">
+  <properties/>
+  <testcase name="calcSliceCount1()" classname="exercise08.Solution08Test" time="0.019"/>
+  <testcase name="calcSliceCount2()" classname="exercise08.Solution08Test" time="0.001"/>
+  <testcase name="calcSliceCount3()" classname="exercise08.Solution08Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
