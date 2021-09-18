@@ -40,6 +40,12 @@ public class Solution10 {
 
         return p * q;
     }
+    void printResponse (subtotal, tax, total) {
+        //return print statements
+        System.out.println("Subtotal: $" + format.format(subtotal));
+        System.out.println("Tax: $" + format.format(tax));
+        System.out.println("Total: $" + format.format(total));
+    }
 
     public static void main(String[] args) {
         Solution10 app = new Solution10();
@@ -53,11 +59,8 @@ public class Solution10 {
         double tax = subtotal * 0.055;
         double total = subtotal + tax;
         DecimalFormat format = new DecimalFormat("#.##");
-
-        //return print statements
-        System.out.println("Subtotal: $"+format.format(subtotal));
-        System.out.println("Tax: $"+format.format(tax));
-        System.out.println("Total: $"+format.format(total));
+        
+        printReaponse(subtotal, tax, total);
     }
     private static final Scanner in = new Scanner(System.in);
 }
